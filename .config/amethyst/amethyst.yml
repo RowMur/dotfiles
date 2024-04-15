@@ -1,4 +1,5 @@
 layouts:
   - tall
+  - fullscreen
 
 new-windows-to-main: true
