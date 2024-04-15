@@ -8,6 +8,7 @@ brew "postgresql@14", restart_service: true
 brew "postgresql@15"
 brew "postgresql@16"
 brew "yadm"
+brew "zoxide"
 cask "banana-cake-pop"
 vscode "astro-build.astro-vscode"
 vscode "bierner.lit-html"

@@ -3,3 +3,6 @@ export GOPATH="$HOME/go"
 export PATH=$PATH:$GOPATH/bin
 
 export HOMEBREW_BUNDLE_FILE_GLOBAL=$HOME/Brewfile
+
+eval "$(zoxide init zsh)"
+alias cd="z"
