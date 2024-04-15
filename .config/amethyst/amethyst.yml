@@ -1,0 +1,4 @@
+layouts:
+  - tall
+
+new-windows-to-main: true
