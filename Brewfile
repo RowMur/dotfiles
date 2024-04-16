@@ -3,6 +3,7 @@ tap "homebrew/cask"
 tap "homebrew/services"
 brew "gh"
 brew "git"
+brew "lsd"
 brew "nvm"
 brew "postgresql@14", restart_service: true
 brew "postgresql@15"
