@@ -1,5 +1,8 @@
 layouts:
   - tall
   - fullscreen
-
+  - floating
 new-windows-to-main: true
+floating:
+  - com.apple.finder
+  - com.apple.systempreferences
