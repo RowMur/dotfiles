@@ -14,11 +14,11 @@ $git_branch\
 $git_commit\
 $git_state\
 $git_status\
+${custom.yadm}\
 $line_break\
 $golang\
 $nodejs\
 $aws\
-$custom\
 $cmd_duration\
 $jobs\
 $line_break\
@@ -43,3 +43,9 @@ format = '[$symbol$branch(:$remote_branch)]($style) '
 
 [git_status]
 format = '([\[$deleted$renamed$modified$typechanged$staged$untracked$ahead_behind\]]($style) )'
+
+[custom.yadm]
+command = 'yadm status --porcelain | wc -l'
+when = 'yadm status | grep -q "Changes not staged for commit:\|Changes to be committed:"'
+style = "yellow bold"
+format = '[dotfiles:\((±$output)\)]($style)'
