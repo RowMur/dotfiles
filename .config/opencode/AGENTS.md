@@ -1,0 +1,1 @@
+- Prefer `pnpm` over `npm` for new Javascript or Typescript projects
