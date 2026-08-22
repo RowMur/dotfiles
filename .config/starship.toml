@@ -18,6 +18,7 @@ ${custom.yadm}\
 $line_break\
 $golang\
 $nodejs\
+$python\
 $aws\
 $cmd_duration\
 $jobs\
@@ -34,6 +35,11 @@ disabled = true
 
 [nodejs]
 symbol = ''
+
+[python]
+symbol = '🐍'
+format = 'via [${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
+
 
 [aws]
 format = '$symbol($profile )(\[$duration\] )'
